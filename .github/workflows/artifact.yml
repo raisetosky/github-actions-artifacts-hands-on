@@ -31,4 +31,4 @@ jobs:
           path: artifacts
 
       - name: Print text file
-        run: cat hello.txt
+        run: cat artifacts/hello.txt
