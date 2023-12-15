@@ -24,7 +24,7 @@ jobs:
     needs: build
 
     steps:
-      - name: Download artifact
+      - name: Download text file
         uses: actions/download-artifact@v2
         with:
           name: hello-artifact
